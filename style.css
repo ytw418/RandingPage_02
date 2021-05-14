@@ -1,0 +1,364 @@
+/* 구글폰트 */
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 500;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 700;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 900;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');}
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 피시모드 온 모바일모드 오프 */
+.pc{display: block;}
+.mo{display: none;}
+
+@media screen and (max-width: 768px) {
+    .mo{display: block;}
+    .pc{display: block}
+}
+
+/*공통사항*/
+*{margin: 0; padding: 0; box-sizing: border-box;}
+a{text-decoration: none;}
+html{scroll-behavior: smooth;}
+
+/* PC Style  */
+#container{position: relative; width: 100%;}
+
+/* 섹션별 백그라운드 */
+
+
+#sec3{position: relative; width: 100%;}
+#sec4{position: relative; width: 100%;}
+#sec5{position: relative; width: 100%;}
+
+#sec1{
+    position: relative;
+    height: 48vw;
+    background: url(./img2/bg/B01.jpg)no-repeat center / 100% 100%;
+
+}
+#sec1 .sec1_1{
+    top: 3vw;
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    left: 18.01%;
+    
+}
+#sec1 .sec1_2{
+    position: absolute;
+    width: 10vw;
+    height: 5vw;
+    left: 10%;
+    top: 6vw;
+
+}
+#sec1 .sec1_3{
+    position: absolute;
+    width: 25vw;
+    left: 45%;
+    top: 23vw;
+   
+}
+#sec1 .sec1_4{
+    position: absolute;
+    width: 31vw;
+    height: 5vw;
+    left:18%;
+    top: 35vw;
+ 
+}
+#sec2{
+    position: relative;
+    background: url(./img2/bg/B02.png)no-repeat center / 100% 100%;
+    height: 30vw;
+}
+#sec2 .sec2_img1{
+    position: absolute;
+    width:80vw;
+    height: 13vw;
+    left:11%;
+    top:1vw;
+    z-index: 1;
+}
+#sec2 .sec2_img2{
+    position: absolute;
+    width:23vw;
+    left:10%;
+    top:12vw;
+}
+#sec2 .sec2_img3{
+    position: absolute;
+    width:23vw;
+    left:35%;
+    top:12vw;
+}
+#sec2 .sec2_img4{
+    position: absolute;
+    width:23vw;
+    left:60%;
+    top:12vw;
+}
+#sec3{
+    position: relative;
+    background: url(./img2/bg/B03.png)no-repeat center / 100% 100%;
+    height: 50vw;
+}
+#sec3 .sec3_img1{
+    position: absolute;
+    width:30vw;
+    height:;
+    left:48%;
+    top:10%;
+}
+#sec3 .sec3_img2{
+    position: absolute;
+    width:27vw;
+    height:;
+    left:48%;
+    top:20%;
+}
+#sec3 .sec3_img3{
+    position: absolute;
+    width:25vw;
+    height:;
+    left:15%;
+    top:5vw;
+}
+#sec3 .sec3_img4{
+    position: absolute;
+    width:18vw;
+    height:;
+    left:5%;
+    top:10vw;
+    z-index: 1;
+}
+#sec3 .sec3_img5{
+    position: absolute;
+    width:18vw;
+ 
+    left:36%;
+    top:36vw;
+    z-index: 1;
+}
+#sec3 .sec3_img6{
+    position: absolute;
+    width:40vw;
+    
+    left:48%;
+    top:25vw;
+}
+#sec4 .sec4_main1{
+    position: relative;
+    background: url(./img2/bg/B04.png)no-repeat center / 100% 100%;
+    height: 35vw;
+}
+#sec4 .sec4_main1 .sec4_img1{
+    position: absolute;
+    width:38vw;
+    height:;
+    left:22%;
+    top:5vw;
+}
+#sec4 .sec4_main1 .sec4_img2{
+    position: absolute;
+    width:10vw;
+    
+    left:65%;
+    top:6vw;
+}
+/* 3번 아놔 내눈 */
+#sec4 .sec4_main1 .sec4_img3{ 
+    position: absolute;
+    width:10vw;
+    left:58%;
+    top:5vw;
+}
+#sec4 .sec4_main1 .sec4_img4{
+    position: absolute;
+    width:50vw;
+    left:25%;
+    top:25vw;
+}
+#sec4 .sec4_main1 .sec4_img5{
+    position: absolute;
+    width:6vw;
+    left:68%;
+    top:33vw;
+}
+#sec4 .sec4_main1 .sec4_img6{
+    position: absolute;
+    width:35vw;
+    height:;
+    left:30%;
+    top:42vw;
+}
+#sec4 .sec4_main2{
+    background: url(./img2/04/007.png)no-repeat center / 70%100%;
+    height: 50vw;
+}
+
+
+
+#sec5{
+    background-color: white;
+    height: 40vw;
+
+}
+#sec5 .sec5_img1{
+    position: absolute;
+    width:;
+    height:;
+    left:;
+    top:;
+}
+#sec5 .sec5_img2{
+    position: absolute;
+    width:;
+    height:;
+    left:;
+    top:;
+}
+#sec5 .sec5_img3{
+    position: absolute;
+    width:;
+    height:;
+    left:;
+    top:;
+}
+#sec5 .sec5_img4{
+    position: absolute;
+    width:;
+    height:;
+    left:;
+    top:;
+}
+#sec5 .sec5_img5{
+    position: absolute;
+    width:;
+    height:;
+    left:;
+    top:;
+}
+#sec5 .sec5_img6{
+    position: absolute;
+    width:;
+    height:;
+    left:;
+    top:;
+}
+#sec5 .sec5_img7{
+    position: absolute;
+    width:;
+    height:;
+    left:;
+    top:;
+}
+#sec5 .sec5_img8{
+    position: absolute;
+    width:;
+    height:;
+    left:;
+    top:;
+}
+#sec5 .sec5_img9{
+    position: absolute;
+    width:;
+    height:;
+    left:;
+    top:;
+}
+#sec5 .sec5_img10{
+    position: absolute;
+    width:;
+    height:;
+    left:;
+    top:;
+}
+
+
+#sec6{
+    background: url(./img2/bg/B06.png)no-repeat center / 100%100%;
+    height: 50vw;
+}
+#sec6 .sec6_img1{
+    position: absolute;
+    width:;
+    height:;
+    left:;
+    top:;
+}
+#sec6 .sec6_img2{
+    position: absolute;
+    width:;
+    height:;
+    left:;
+    top:;
+}
+#sec6 .sec6_img3{
+    position: absolute;
+    width:;
+    height:;
+    left:;
+    top:;
+}
+#sec6 .sec6_img4{
+    position: absolute;
+    width:;
+    height:;
+    left:;
+    top:;
+}
+#sec6 .sec6_img5{
+    position: absolute;
+    width:;
+    height:;
+    left:;
+    top:;
+}
+.swiper-container {
+    position: absolute;
+    width: 50%;
+    top: 15vw;
+}
+
+.swiper-container .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+}
+
+  .swiper-slide img {
+    display: block;
+    width: 50%;
+    height: 50%;
+    
+}
+.centeredSlides{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+#sec7{
+}
+#sec7 .sec7_title{
+
+}
+
+#sec8{
+
+}
+#sec9{
+    
+}
+#sec10{
+
+}
+

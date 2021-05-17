@@ -613,6 +613,21 @@ html{scroll-behavior: smooth;}
     top: 38vw;
     
 }
+/* 호버 효과 모음  */
+#sec9 .sec9_img4:hover{
+    transform: scale(1.2);
+}
+#sec9 .sec9_img5:hover{
+    transform: scale(1.2);
+}
+#sec9 .sec9_img6_1:hover{
+    transform: scale(1.2);
+}
+
+#sec9 .sec9_img6_2:hover{
+    transform: scale(1.2);
+}
+
 #sec9 .sec9_img4_1{
     position: absolute;
     width: 10vw;

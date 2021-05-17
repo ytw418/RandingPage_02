@@ -37,7 +37,7 @@ html{scroll-behavior: smooth;}
 
 #sec1{
     position: relative;
-    height: 48vw;
+    height: 45vw;
     background: url(./img2/bg/B01.jpg)no-repeat center / 100% 100%;
 
 }
@@ -208,7 +208,9 @@ html{scroll-behavior: smooth;}
 #sec4 .sec4_main2 p{
     position: absolute;
     left: 25%;
+    right: 25%;
     top: 20vw;
+    
     font-size: 1.2vw;
     font-weight:600;
     line-height: 3vw;
@@ -377,6 +379,20 @@ html{scroll-behavior: smooth;}
     height: 50vw;
 
 }
+#sec7 .sec7_title .sec7_img02{
+    position: absolute;
+    width: 7vw;
+    left: 22%;
+    top: 40vw;
+    
+}
+#sec7 .sec7_title .sec7_img01{
+    position: absolute;
+    width: 6vw;
+    left:68%;
+    top: 20vw;
+    
+}
 #sec7 .sec7_title .sec7_img1{
     position: absolute;
     width: 28vw;
@@ -425,6 +441,13 @@ html{scroll-behavior: smooth;}
 #sec7 .sec7_webtoon{
     position: relative;
     height: 80vw;
+}
+#sec7 .sec7_webtoon .sec7_img1{
+    position: absolute;
+    width: 30vw;
+    left: 18%;
+    top: 10vw;
+    
 }
 #sec7 .sec7_webtoon .sec7_img1{
     position: absolute;
@@ -535,6 +558,13 @@ html{scroll-behavior: smooth;}
     height: 80vw;
     
 }
+#sec9 .sec9_img0{
+    position: absolute;
+    width: 2vw;
+    left: 50%;
+    top: 67vw;
+
+}
 #sec9 .sec9_img001{
     position: absolute;
     width: 20vw;
@@ -644,6 +674,75 @@ html{scroll-behavior: smooth;}
 }
 
 #sec10{
-
+    position: relative;
+    background: url(./img2/bg/B10.png)no-repeat center / 100%100%;
+    height: 60vw;
+    
 }
-
+#sec10 .sec10_img1{
+    position: absolute;
+    width: 27vw;
+    left: 20%;
+    top: 10vw;
+}
+#sec10 .sec10_img2{
+    position: absolute;
+    width: 40vw;
+    left: 20%;
+    top: 15vw;
+    z-index: 1;
+}
+#sec10 .sec10_img3{
+    position: absolute;
+    width: 63vw;
+    height: 30vw;
+    left: 17%;
+    top: 16.5vw;
+}
+#sec10 .sec10_img4{
+    position: absolute;
+    width: 25vw;
+    height: 6vw;
+    left: 50%;
+    top: 18vw;
+}
+#sec10 .sec10_img5{
+    position: absolute;
+    width: 35vw;
+    height: 4vw;
+    left: 33%;
+    top: 42vw;
+}
+#sec10 .sec10_img6{
+    position: absolute;
+    width: 30vw;
+    
+    left: 50%;
+    top: 48vw;
+}
+#sec11{
+    position: relative;
+    background: url(./img2/bg/B011.png) center / 100%100%;
+    height: 25vw;
+}
+#sec11 .sec11_img1{
+    position: absolute;
+    width: 50vw;
+    
+    left: 25%;
+    top: 6vw;
+}
+#sec11 .sec11_img2{
+    position: absolute;
+    width: 8vw;
+    
+    left: 60%;
+    top: -2vw;
+}
+#sec11 .sec11_img3{
+    position: absolute;
+    width: 26vw;
+    height: 4vw;
+    left: 35%;
+    top: 15vw;
+}

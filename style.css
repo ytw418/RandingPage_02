@@ -26,7 +26,7 @@ a{text-decoration: none;}
 html{scroll-behavior: smooth;}
 
 /* PC Style  */
-#container{position: relative; width: 100%;}
+#container{position: relative; width: 100%;overflow: hidden;}
 
 /* 섹션별 백그라운드 */
 
@@ -196,168 +196,453 @@ html{scroll-behavior: smooth;}
     height:;
     left:30%;
     top:42vw;
+    z-index: 1;
 }
 #sec4 .sec4_main2{
+    position: relative;
     background: url(./img2/04/007.png)no-repeat center / 70%100%;
     height: 50vw;
+    left: 3%;
+
+}
+#sec4 .sec4_main2 p{
+    position: absolute;
+    left: 25%;
+    top: 20vw;
+    font-size: 1.2vw;
+    font-weight:600;
+    line-height: 3vw;
+    font-family: 'S-CoreDream-3Light';
+    
 }
 
 
 
 #sec5{
-    background-color: white;
-    height: 40vw;
+    background: url(./img2/bg/B05.png)no-repeat center / 100%100%;
+    height: 100vw;
 
 }
 #sec5 .sec5_img1{
     position: absolute;
-    width:;
-    height:;
-    left:;
-    top:;
+    width:40vw;
+    left:45%;
+    top:7vw;
+    z-index: 1;
 }
 #sec5 .sec5_img2{
     position: absolute;
-    width:;
-    height:;
-    left:;
-    top:;
+    width:10vw;
+    left:46.5%;
+    top:4vw;
+    z-index: 1;
 }
 #sec5 .sec5_img3{
     position: absolute;
-    width:;
-    height:;
-    left:;
-    top:;
+    width:80vw;
+    height:30vw;
+    left:10%;
+    top:23vw;
 }
 #sec5 .sec5_img4{
     position: absolute;
-    width:;
-    height:;
-    left:;
-    top:;
+    width:16vw;
+    left:20%;
+    top:28vw;
 }
 #sec5 .sec5_img5{
     position: absolute;
-    width:;
+    width:23vw;
     height:;
-    left:;
-    top:;
+    left:57%;
+    top:46vw;
 }
 #sec5 .sec5_img6{
     position: absolute;
-    width:;
+    width:30vw;
     height:;
-    left:;
-    top:;
+    left:61%;
+    top:21vw;
 }
 #sec5 .sec5_img7{
     position: absolute;
-    width:;
-    height:;
-    left:;
-    top:;
+    width:50vw;
+    height:25vw;
+    left:10%;
+    top:55vw;
 }
 #sec5 .sec5_img8{
     position: absolute;
-    width:;
+    width:28vw;
     height:;
-    left:;
-    top:;
+    left:34%;
+    top:58vw;
 }
 #sec5 .sec5_img9{
     position: absolute;
-    width:;
-    height:;
-    left:;
-    top:;
+    width:25vw;
+    
+    left:63%;
+    top:55vw;
 }
 #sec5 .sec5_img10{
     position: absolute;
-    width:;
+    width:30vw;
     height:;
-    left:;
-    top:;
+    left:10%;
+    top:81vw;
+    z-index: 2;
 }
 
 
 #sec6{
+    position: relative;
     background: url(./img2/bg/B06.png)no-repeat center / 100%100%;
     height: 50vw;
 }
 #sec6 .sec6_img1{
     position: absolute;
-    width:;
-    height:;
-    left:;
-    top:;
+    width:3vw;
+    left:70%;
+    top:28vw;
 }
 #sec6 .sec6_img2{
     position: absolute;
-    width:;
+    width:10vw;
     height:;
-    left:;
-    top:;
+    left:28%;
+    top:1vw;
+    z-index: 555;
 }
 #sec6 .sec6_img3{
     position: absolute;
-    width:;
+    width:10vw;
     height:;
-    left:;
-    top:;
+    left:30%;
+    top:30vw;
 }
 #sec6 .sec6_img4{
     position: absolute;
-    width:;
+    width:18vw;
     height:;
-    left:;
-    top:;
+    left:50%;
+    top:28vw;
 }
 #sec6 .sec6_img5{
     position: absolute;
-    width:;
-    height:;
-    left:;
-    top:;
+    width:18vw;
+    left:50%;
+    top:36vw;
 }
 .swiper-container {
-    position: absolute;
-    width: 50%;
-    top: 15vw;
-}
+    width: 50vw;
+    top: 7vw;
+    height: 20vw;
+  }
 
-.swiper-container .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 400px;
-}
+  .swiper-slide {
+      width:50vw;
+      
+  
+    background: #fff;
+      
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
 
   .swiper-slide img {
-    display: block;
-    width: 50%;
-    height: 50%;
-    
-}
-.centeredSlides{
     width: 100%;
     height: 100%;
+    
+  }
 
-}
 
-
-#sec7{
-}
-#sec7 .sec7_title{
-
-}
-
-#sec8{
-
-}
-#sec9{
+#sec7{position: relative;
+    background: url(./img2/bg/B07.png)no-repeat center / 100%100%;
     
 }
+#sec7 .sec7_title{
+    position: relative;
+    height: 50vw;
+
+}
+#sec7 .sec7_title .sec7_img1{
+    position: absolute;
+    width: 28vw;
+    left: 37%;
+    top: 20vw;
+    z-index: 1;
+
+}
+#sec7 .sec7_title .sec7_img2{
+    position: absolute;
+    width: 18vw;
+    left: 44%;
+    top: 4vw;
+
+}
+#sec7 .sec7_title .sec7_img3{
+    position: absolute;
+    width: 10vw;
+    left: 35%;
+    top: 5vw;
+
+}
+#sec7 .sec7_title .sec7_img4{
+    position: absolute;
+    width: 44vw;
+    height: 5vw;
+    left: 30%;
+    top: 45vw;
+
+}
+#sec7 .sec7_title .sec7_img5{
+    position: absolute;
+    width: 44vw;
+    height: 5vw;
+    left: 30%;
+    top: 42vw;
+
+}
+#sec7 .sec7_title .sec7_img6{
+    position: absolute;
+    width: 3vw;
+    left: 72%;
+    top: 44vw;
+
+}
+#sec7 .sec7_webtoon{
+    position: relative;
+    height: 80vw;
+}
+#sec7 .sec7_webtoon .sec7_img1{
+    position: absolute;
+    width: 30vw;
+    left: 18%;
+    top: 10vw;
+    
+}
+#sec7 .sec7_webtoon .sec7_img2{
+    position: absolute;
+    width: 15vw;
+    left: 10%;
+    top: 10vw;
+    
+}
+#sec7 .sec7_webtoon .sec7_img3{
+    position: absolute;
+    width: 15vw;
+    left: 35%;
+    top: 30vw;
+    
+}
+#sec7 .sec7_webtoon .sec7_img4{
+    position: absolute;
+    width: 15vw;
+    left: 40%;
+    top: 44vw;
+    z-index: 1;
+    
+}
+#sec7 .sec7_webtoon .sec7_img5{
+    position: absolute;
+    width: 30vw;
+    left: 52%;
+    top: 25vw;
+    
+}
+#sec7 .sec7_webtoon .sec7_img6{
+    position: absolute;
+    width: 15vw;
+    left: 47%;
+    top: 60vw;
+    
+}
+#sec7 .sec7_webtoon .sec7_img7{
+    position: absolute;
+    width: 25vw;
+    left: 68%;
+    top: 42vw;
+    
+}
+#sec7 .sec7_webtoon .sec7_img8{
+    position: absolute;
+    width: 22vw;
+    left: 60%;
+    top: 75vw;
+    
+}
+
+
+#sec8{
+    position: relative;
+    background: url(./img2/bg/B08.png)no-repeat center / 100%100%;
+    height: 60vw;
+
+}
+#sec8 .sec8_img1{
+    position: absolute;
+    width: 18vw;
+    left: 15%;
+    top: 10vw;
+}
+#sec8 .sec8_img2{
+    position: absolute;
+    width: 35vw;
+    height: 4.5vw;
+    left: 40%;
+    top: 5vw;
+}
+#sec8 .sec8_img3{
+    position: absolute;
+    width: 30vw;
+    left: 43%;
+    top: 10vw;
+}
+#sec8 .sec8_img4{
+    position: absolute;
+    width: 20vw;
+    left: 28%;
+    top: 28vw;
+}
+#sec8 .sec8_img5{
+    position: absolute;
+    width: 20vw;
+    left: 50%;
+    top: 28vw;
+}
+#sec8 .sec8_img6{
+    position: absolute;
+    width: 20vw;
+    left: 73%;
+    top: 28vw;
+}
+
+#sec9{
+    position: relative;
+    background: url(./img2/bg/B09.png)no-repeat center / 100%100%;
+    height: 80vw;
+    
+}
+#sec9 .sec9_img001{
+    position: absolute;
+    width: 20vw;
+    left: 60%;
+    top: 12vw;
+
+}
+#sec9 .sec9_img002{
+    position: absolute;
+    width: 30vw;
+    left: 48%;
+    top: 25vw;
+    
+}
+#sec9 .sec9_img003{
+    position: absolute;
+    width: 50vw;
+    left: 24%;
+    top: 30vw;
+    
+}
+#sec9 .sec9_img1{
+    position: absolute;
+    width: 16vw;
+    left: 45%;
+    top: 11vw;
+    
+}
+#sec9 .sec9_img2{
+    position: absolute;
+    width: 25vw;
+    left: 23%;
+    top: 40vw;
+    
+}
+#sec9 .sec9_img3{
+    position: absolute;
+    width: 25vw;
+    left: 50%;
+    top: 40vw;
+}
+#sec9 .sec9_img4{
+    position: absolute;
+    width: 20vw;
+    left: 26%;
+    top: 38vw;
+    
+}
+#sec9 .sec9_img4_1{
+    position: absolute;
+    width: 10vw;
+    left: 20%;
+    top: 50vw;
+    
+    
+}
+#sec9 .sec9_img4_2{
+    position: absolute;
+    width: 25vw;
+    height: 6vw;
+    left: 23%;
+    top: 58vw;
+    
+    
+}
+#sec9 .sec9_img5{
+    position: absolute;
+    width: 20vw;
+    left: 53%;
+    top: 38vw;
+    
+}
+#sec9 .sec9_img5_1{
+    position: absolute;
+    width: 10vw;
+    left: 69%;
+    top: 40vw;
+    
+    
+}
+#sec9 .sec9_img5_2{
+    position: absolute;
+    width: 25vw;
+    height: 6vw;
+    left: 50%;
+    top: 58vw;
+    
+    
+}
+#sec9 .sec9_img6_1{
+    position: absolute;
+    width: 15vw;
+   
+    left: 55%;
+    top: 65vw;
+    
+    
+}
+#sec9 .sec9_img6_2{
+    position: absolute;
+    width: 15vw;
+    
+    left: 28%;
+    top: 65vw;
+    
+    
+}
+
 #sec10{
 
 }

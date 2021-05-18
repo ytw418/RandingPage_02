@@ -1,4 +1,4 @@
-/* 구글폰트 */
+
 @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');}
 @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');}
 @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');}
@@ -11,7 +11,7 @@
     font-weight: normal;
     font-style: normal;
 }
-/* 피시모드 온 모바일모드 오프 */
+
 .pc{display: block;}
 .mo{display: none;}
 
@@ -20,15 +20,15 @@
     .pc{display: block}
 }
 
-/*공통사항*/
+
 *{margin: 0; padding: 0; box-sizing: border-box;}
 a{text-decoration: none;}
 html{scroll-behavior: smooth;}
 
-/* PC Style  */
+
 #container{position: relative; width: 100%;overflow: hidden;}
 
-/* 섹션별 백그라운드 */
+
 
 
 #sec3{position: relative; width: 100%;}
@@ -38,7 +38,7 @@ html{scroll-behavior: smooth;}
 #sec1{
     position: relative;
     height: 45vw;
-    background: url(./img2/bg/B01.jpg)no-repeat center / 100% 100%;
+    background: url(../img/img2/bg/B01.jpg)no-repeat center / 100% 100%;
 
 }
 #sec1 .sec1_1{
@@ -74,7 +74,7 @@ html{scroll-behavior: smooth;}
 }
 #sec2{
     position: relative;
-    background: url(./img2/bg/B02.png)no-repeat center / 100% 100%;
+    background: url(../img/img2/bg/B02.png)no-repeat center / 100% 100%;
     height: 30vw;
 }
 #sec2 .sec2_img1{
@@ -105,7 +105,7 @@ html{scroll-behavior: smooth;}
 }
 #sec3{
     position: relative;
-    background: url(./img2/bg/B03.png)no-repeat center / 100% 100%;
+    background: url(../img/img2/bg/B03.png)no-repeat center / 100% 100%;
     height: 50vw;
 }
 #sec3 .sec3_img1{
@@ -154,7 +154,7 @@ html{scroll-behavior: smooth;}
 }
 #sec4 .sec4_main1{
     position: relative;
-    background: url(./img2/bg/B04.png)no-repeat center / 100% 100%;
+    background: url(../img/img2/bg/B04.png)no-repeat center / 100% 100%;
     height: 35vw;
 }
 #sec4 .sec4_main1 .sec4_img1{
@@ -200,7 +200,7 @@ html{scroll-behavior: smooth;}
 }
 #sec4 .sec4_main2{
     position: relative;
-    background: url(./img2/04/007.png)no-repeat center / 70%100%;
+    background: url(../img/img2/04/007.png)no-repeat center / 70%100%;
     height: 50vw;
     left: 3%;
 
@@ -221,7 +221,7 @@ html{scroll-behavior: smooth;}
 
 
 #sec5{
-    background: url(./img2/bg/B05.png)no-repeat center / 100%100%;
+    background: url(../img/img2/bg/B05.png)no-repeat center / 100%100%;
     height: 100vw;
 
 }
@@ -299,7 +299,7 @@ html{scroll-behavior: smooth;}
 
 #sec6{
     position: relative;
-    background: url(./img2/bg/B06.png)no-repeat center / 100%100%;
+    background: url(../img/img2/bg/B06.png)no-repeat center / 100%100%;
     height: 50vw;
 }
 #sec6 .sec6_img1{
@@ -371,7 +371,7 @@ html{scroll-behavior: smooth;}
 
 
 #sec7{position: relative;
-    background: url(./img2/bg/B07.png)no-repeat center / 100%100%;
+    background: url(../img/img2/bg/B07.png)no-repeat center / 100%100%;
     
 }
 #sec7 .sec7_title{
@@ -510,7 +510,7 @@ html{scroll-behavior: smooth;}
 
 #sec8{
     position: relative;
-    background: url(./img2/bg/B08.png)no-repeat center / 100%100%;
+    background: url(../img/img2/bg/B08.png)no-repeat center / 100%100%;
     height: 60vw;
 
 }
@@ -568,7 +568,7 @@ html{scroll-behavior: smooth;}
 
 #sec9{
     position: relative;
-    background: url(./img2/bg/B09.png)no-repeat center / 100%100%;
+    background: url(../img/img2/bg/B09.png)no-repeat center / 100%100%;
     height: 80vw;
     
 }
@@ -708,7 +708,7 @@ html{scroll-behavior: smooth;}
 
 #sec10{
     position: relative;
-    background: url(./img2/bg/B10.png)no-repeat center / 100%100%;
+    background: url(../img/img2/bg/B10.png)no-repeat center / 100%100%;
     height: 60vw;
     
 }
@@ -755,7 +755,7 @@ html{scroll-behavior: smooth;}
 }
 #sec11{
     position: relative;
-    background: url(./img2/bg/B011.png) center / 100%100%;
+    background: url(../img/img2/bg/B011.png) center / 100%100%;
     height: 25vw;
 }
 #sec11 .sec11_img1{

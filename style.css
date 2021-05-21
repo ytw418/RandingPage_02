@@ -342,6 +342,7 @@ html{scroll-behavior: smooth;}
 
 .swiper-slide {
     width:50vw;
+    padding: 3vw;
     
 
     background: #fff;

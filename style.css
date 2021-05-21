@@ -117,21 +117,21 @@ html{scroll-behavior: smooth;}
 #sec3 .sec3_img2{
     position: absolute;
     width:27vw;
-    height:;
+  
     left:48%;
     top:20%;
 }
 #sec3 .sec3_img3{
     position: absolute;
     width:25vw;
-    height:;
+    
     left:15%;
     top:5vw;
 }
 #sec3 .sec3_img4{
     position: absolute;
     width:18vw;
-    height:;
+    
     left:5%;
     top:10vw;
     z-index: 1;
@@ -159,7 +159,7 @@ html{scroll-behavior: smooth;}
 #sec4 .sec4_main1 .sec4_img1{
     position: absolute;
     width:38vw;
-    height:;
+   
     left:22%;
     top:5vw;
 }
@@ -192,7 +192,7 @@ html{scroll-behavior: smooth;}
 #sec4 .sec4_main1 .sec4_img6{
     position: absolute;
     width:35vw;
-    height:;
+  
     left:30%;
     top:42vw;
     z-index: 1;
@@ -254,14 +254,14 @@ html{scroll-behavior: smooth;}
 #sec5 .sec5_img5{
     position: absolute;
     width:23vw;
-    height:;
+ 
     left:57%;
     top:46vw;
 }
 #sec5 .sec5_img6{
     position: absolute;
     width:30vw;
-    height:;
+    
     left:61%;
     top:21vw;
 }
@@ -275,7 +275,7 @@ html{scroll-behavior: smooth;}
 #sec5 .sec5_img8{
     position: absolute;
     width:28vw;
-    height:;
+  
     left:34%;
     top:58vw;
 }
@@ -289,7 +289,7 @@ html{scroll-behavior: smooth;}
 #sec5 .sec5_img10{
     position: absolute;
     width:30vw;
-    height:;
+ 
     left:10%;
     top:81vw;
     z-index: 2;
@@ -323,7 +323,7 @@ html{scroll-behavior: smooth;}
 #sec6 .sec6_img4{
     position: absolute;
     width:20vw;
-    height:;
+ 
     left:50%;
     top:38vw;
 }

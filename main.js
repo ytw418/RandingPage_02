@@ -15,12 +15,12 @@ var swiper = new Swiper(".mySwiper", {
   });
   $(function ccc(){
     $('.sec6_img3').animate({
-    top:800,
-    
-    },1000,function(){
+    top:830,
+    // 내려갈떄
+    },600,function(){
     $('.sec6_img3').animate({
-    top:900,
-    
-    },1000,ccc);
+    top:780,
+    // 올라갈떄
+    },400,ccc);
     });
     });

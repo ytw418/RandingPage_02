@@ -13,3 +13,14 @@ var swiper = new Swiper(".mySwiper", {
     }
  
   });
+  $(function ccc(){
+    $('.sec6_img3').animate({
+    top:800,
+    
+    },1000,function(){
+    $('.sec6_img3').animate({
+    top:900,
+    
+    },1000,ccc);
+    });
+    });

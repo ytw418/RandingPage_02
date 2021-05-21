@@ -319,6 +319,7 @@ html{scroll-behavior: smooth;}
     width:12vw;
     left:30%;
     top:44vw;
+    z-index: 999;
 }
 #sec6 .sec6_img4{
     position: absolute;
@@ -332,6 +333,12 @@ html{scroll-behavior: smooth;}
     width:20vw;
     left:50%;
     top:53vw;
+}
+#sec6 .sec6_img6{
+    position: absolute;
+    width:20vw;
+    left:38%;
+    top:63vw;
 }
 
 .swiper-container {
@@ -644,6 +651,9 @@ html{scroll-behavior: smooth;}
 #sec11 .sec11_img3:hover{
     transform: scale(1.2);
 }
+#sec6 .sec6_img6:hover{
+    transform: scale(1.2);
+}
 
 #sec9 .sec9_img4_1{
     position: absolute;
@@ -713,15 +723,15 @@ html{scroll-behavior: smooth;}
 }
 #sec10 .sec10_img1{
     position: absolute;
-    width: 27vw;
-    left: 20%;
-    top: 10vw;
+    width: 50vw;
+    left: 26%;
+    top: 2vw;
 }
 #sec10 .sec10_img2{
     position: absolute;
     width: 40vw;
-    left: 20%;
-    top: 15vw;
+    left: 30%;
+    top: 48vw;
     z-index: 1;
 }
 #sec10 .sec10_img3{
@@ -729,29 +739,9 @@ html{scroll-behavior: smooth;}
     width: 45vw;
     
     left: 26%;
-    top: 16.5vw;
+    top: 50.5vw;
 }
-#sec10 .sec10_img4{
-    position: absolute;
-    width: 28vw;
-    
-    left: 50%;
-    top: 20vw;
-}
-#sec10 .sec10_img5{
-    position: absolute;
-    width: 35vw;
-    
-    left: 32%;
-    top: 42vw;
-}
-#sec10 .sec10_img6{
-    position: absolute;
-    width: 30vw;
-    
-    left: 40%;
-    top: 49vw;
-}
+
 #sec11{
     position: relative;
     background: url(./img2/bg/B011.png) center / 100%100%;

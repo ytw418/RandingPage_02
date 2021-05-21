@@ -310,7 +310,7 @@ html{scroll-behavior: smooth;}
 #sec6 .sec6_img2{
     position: absolute;
     width:14vw;
-    left:23%;
+    left:12%;
     top:4vw;
     z-index: 555;
 }
@@ -318,20 +318,20 @@ html{scroll-behavior: smooth;}
     position: absolute;
     width:12vw;
     left:30%;
-    top:38vw;
+    top:44vw;
 }
 #sec6 .sec6_img4{
     position: absolute;
     width:20vw;
  
     left:50%;
-    top:38vw;
+    top:44vw;
 }
 #sec6 .sec6_img5{
     position: absolute;
     width:20vw;
     left:50%;
-    top:47vw;
+    top:53vw;
 }
 
 .swiper-container {

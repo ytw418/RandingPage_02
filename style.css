@@ -725,31 +725,31 @@ html{scroll-behavior: smooth;}
 }
 #sec10 .sec10_img3{
     position: absolute;
-    width: 63vw;
-    height: 30vw;
-    left: 17%;
+    width: 45vw;
+    
+    left: 26%;
     top: 16.5vw;
 }
 #sec10 .sec10_img4{
     position: absolute;
-    width: 25vw;
-    height: 6vw;
+    width: 28vw;
+    
     left: 50%;
-    top: 18vw;
+    top: 20vw;
 }
 #sec10 .sec10_img5{
     position: absolute;
     width: 35vw;
-    height: 4vw;
-    left: 33%;
+    
+    left: 32%;
     top: 42vw;
 }
 #sec10 .sec10_img6{
     position: absolute;
     width: 30vw;
     
-    left: 50%;
-    top: 48vw;
+    left: 40%;
+    top: 49vw;
 }
 #sec11{
     position: relative;

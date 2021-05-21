@@ -37,7 +37,7 @@ html{scroll-behavior: smooth;}
 
 #sec1{
     position: relative;
-    height: 50vw;
+    height: 52vw;
     background: url(./img2/bg/B01.png)no-repeat center / 100% 100%;
 
 }
@@ -335,17 +335,17 @@ html{scroll-behavior: smooth;}
 }
 
 .swiper-container {
-    width: 56vw;
+    width: 50vw;
     top: 12vw;
-    height: 23vw;
-  }
+    
+}
 
-  .swiper-slide {
-      width:50vw;
-      
-  
+.swiper-slide {
+    width:50vw;
+    
+
     background: #fff;
-      
+
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -773,7 +773,7 @@ html{scroll-behavior: smooth;}
 #sec11 .sec11_img3{
     position: absolute;
     width: 26vw;
-    height: 4vw;
+    
     left: 35%;
     top: 15vw;
 }

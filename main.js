@@ -15,7 +15,6 @@ var swiper = new Swiper(".mySwiper", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev"
     }
- 
   });
   $(function ccc(){
     $('.sec6_img3').animate({

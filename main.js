@@ -36,9 +36,9 @@ var swiper = new Swiper(".mySwiper", {
     $( window ).scroll( function() {
           //document가 jbOffset 값보다 많이 스크롤 되면 실행
       if ( $( document ).scrollTop() > jbOffset.top ) {
-       
+      
         $("#sec10 .sec10_img3").css("transition-duration", "3s");
-       
+      
       
       
       

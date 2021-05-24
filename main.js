@@ -28,3 +28,27 @@ var swiper = new Swiper(".mySwiper", {
     },400,ccc);
     });
     });
+
+    $( document ).ready( function() {
+      //jbOffset 에 #hd_wr의 좌표값 저장 
+    var jbOffset = $( '#sec10' ).offset();
+  
+    $( window ).scroll( function() {
+          //document가 jbOffset 값보다 많이 스크롤 되면 실행
+      if ( $( document ).scrollTop() > jbOffset.top ) {
+       
+        $("#sec10 .sec10_img3").css("transition-duration", "3s");
+       
+      
+      
+      
+        $("#sec10 .sec10_img3").css("width","42%");
+        $("#sec10 .sec10_img3").css("height","5%");
+      }
+          //jbOffset 값 이하로 줄어들면 실행
+      else {
+        $( '#sec10' ).removeClass( 'fixed' );
+        $("#sec10 .sec10_img3").css("width","0.1%");
+      }
+    });
+  });

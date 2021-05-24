@@ -27,6 +27,9 @@ html{scroll-behavior: smooth;}
 
 /* PC Style  */
 #container{position: relative; width: 100%;overflow: hidden;}
+body{
+    font-family: 'S-CoreDream-3Light';
+}
 
 /* 섹션별 백그라운드 */
 
@@ -732,15 +735,23 @@ html{scroll-behavior: smooth;}
     width: 40vw;
     left: 30%;
     top: 49vw;
-    z-index: 1;
+    z-index: 2;
+  
+
+
+
 }
 #sec10 .sec10_img3{
     position: absolute;
-    width: 43vw;
+    width: 1vw;
     
-    left: 28.5%;
-    top: 48.7vw;
+    left: 29%;
+    top: 48.5vw;
+    z-index: 1;
+    background-color: yellow;
 }
+
+
 
 #sec11{
     position: relative;
@@ -770,50 +781,77 @@ html{scroll-behavior: smooth;}
 }
 #sec12{
     position: relative;
-    background: url(./img2/moon.png) center / 100%100%;
+    background: url(./img2/moom1/moomall.png) center / 100%100%;
     height: 60vw;
 }
 #sec12 #name{
     position: absolute;
-    width: 22.6vw;
-    height: 3.88vw;
-    left: 12.9%;
-    bottom: 37.2vw;
-    font-size: 2vw;
+    width: 16.9vw;
+    height: 2.7vw;
+    left: 21.6%;
+    bottom: 39.7vw;
+    font-size: 1vw;
+    border: white;
+    background-color: white;
+    padding-left: 1vw;
+    font-family: 'S-CoreDream-3Light';
+    
     
 }
 #sec12 #num{
     position: absolute;
-    width: 22.6vw;
-    height: 3.88vw;
-    left: 38.4%;
-    bottom: 37.2vw;
-    font-size: 2vw;
+    width: 16.9vw;
+    height: 2.7vw;
+    left: 40.9%;
+    bottom: 39.7vw;
+    font-size: 1vw;
+    border: white;
+    background-color: white;
+    padding-left: 1vw;
+    font-family: 'S-CoreDream-3Light';
 }
 #sec12 #email{
     position: absolute;
-    width: 22.6vw;
-    height: 3.88vw;
-    left: 64.15%;
-    bottom: 37.2vw;
-    font-size: 1.8vw;
+    width: 16.9vw;
+    height: 2.7vw;
+    left: 60.4%;
+    bottom: 39.7vw;
+    font-size: 1vw;
+    border: white;
+    background-color: white;
+    padding-left: 1vw;
+    font-family: 'S-CoreDream-3Light';
 }
 #sec12 #main{
     position: absolute;
-    width: 73.3vw;
-    height: 21.5vw;
-    left: 13%;
-    bottom: 10.2vw;
-    font-size: 1.5vw;
+    width: 55.5vw;
+    height: 14.5vw;
+    left: 21.5%;
+    bottom: 21.6vw;
+    font-size: 1vw;
+    padding: 1vw;
+    font-family: 'S-CoreDream-3Light';
 }
 #sec12 #check{
     position: absolute;
-    width: 0.9vw;
-    height: 0.9vw;
-    left: 13.1%;
-    bottom: 7.21vw;
+    width: 1vw;
+    height: 1vw;
+    left: 21.6%;
+    bottom: 10.25vw;
     font-size: 1.5vw;
+    border: black;
 }
+#sec12 #checkmain{
+    position: absolute;
+    width: 55.5vw;
+    height: 7.8vw;
+    left: 21.5%;
+    bottom: 12.4vw;
+    font-size: 1vw;
+    padding: 0.5vw;
+    font-family: 'S-CoreDream-3Light';
+}
+
 #sec12 .gogo{
     position: absolute;
     width: 14vw;
@@ -821,17 +859,7 @@ html{scroll-behavior: smooth;}
     left: 73%;
     bottom: 6vw;
 }
-#sec12 .open{
-    position: absolute;
-    font-size: 1.2vw;
-    color: black;
-    top: 50.4vw;
-    left: 30%;
-    padding: 1vw;
-    background-color:#fff;
-    font-weight: 700;
-    
-}
+
 #sec13{
     position: relative;
     background-color: #1c1c1c;

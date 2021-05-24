@@ -782,14 +782,14 @@ body{
 #sec12{
     position: relative;
     background: url(./img2/moom1/moomall.png) center / 100%100%;
-    height: 60vw;
+    height: 80vw;
 }
 #sec12 #name{
     position: absolute;
     width: 16.9vw;
-    height: 2.7vw;
+    height: 3.5vw;
     left: 21.6%;
-    bottom: 39.7vw;
+    bottom: 53vw;
     font-size: 1vw;
     border: white;
     background-color: white;
@@ -801,9 +801,9 @@ body{
 #sec12 #num{
     position: absolute;
     width: 16.9vw;
-    height: 2.7vw;
+    height: 3.5vw;
     left: 40.9%;
-    bottom: 39.7vw;
+    bottom: 53vw;
     font-size: 1vw;
     border: white;
     background-color: white;
@@ -813,9 +813,9 @@ body{
 #sec12 #email{
     position: absolute;
     width: 16.9vw;
-    height: 2.7vw;
+    height: 3.5vw;
     left: 60.4%;
-    bottom: 39.7vw;
+    bottom: 53vw;
     font-size: 1vw;
     border: white;
     background-color: white;
@@ -825,9 +825,9 @@ body{
 #sec12 #main{
     position: absolute;
     width: 55.5vw;
-    height: 14.5vw;
+    height: 19.1vw;
     left: 21.5%;
-    bottom: 21.6vw;
+    bottom: 29vw;
     font-size: 1vw;
     padding: 1vw;
     font-family: 'S-CoreDream-3Light';
@@ -837,16 +837,16 @@ body{
     width: 1vw;
     height: 1vw;
     left: 21.6%;
-    bottom: 10.25vw;
+    bottom: 13.9vw;
     font-size: 1.5vw;
     border: black;
 }
 #sec12 #checkmain{
     position: absolute;
     width: 55.5vw;
-    height: 7.8vw;
+    height: 10.4vw;
     left: 21.5%;
-    bottom: 12.4vw;
+    bottom: 16.6vw;
     font-size: 1vw;
     padding: 0.5vw;
     font-family: 'S-CoreDream-3Light';
@@ -854,10 +854,10 @@ body{
 
 #sec12 .gogo{
     position: absolute;
-    width: 14vw;
-    
-    left: 73%;
-    bottom: 6vw;
+    width: 12.7vw;
+    height: 3.4vw;
+    left: 21%;
+    bottom:9vw;
 }
 
 #sec13{
@@ -877,6 +877,7 @@ body{
 }
 
 #sec13 footer{
+    font-family: 'S-CoreDream-3Light';
   
     text-align: center;
     color: #fff;
@@ -892,7 +893,7 @@ h2{
 }
 #sec13 footer p{
    
-    
+    font-family: 'S-CoreDream-3Light';
     padding: 2vw;
     color:gray;
     font-size: 1vw;

@@ -27,6 +27,9 @@ html{scroll-behavior: smooth;}
 
 /* PC Style  */
 #container{position: relative; width: 100%;overflow: hidden;}
+body{
+    font-family: 'S-CoreDream-3Light';
+}
 
 /* 섹션별 백그라운드 */
 
@@ -37,14 +40,14 @@ html{scroll-behavior: smooth;}
 
 #sec1{
     position: relative;
-    height: 45vw;
-    background: url(../img/img2/bg/B01.jpg)no-repeat center / 100% 100%;
+    height: 52vw;
+    background: url(../img/img2/bg/B01.png)no-repeat center / 100% 100%;
 
 }
 #sec1 .sec1_1{
     top: 3vw;
-    width: 35vw;
-    height: 30vw;
+    width: 34vw;
+    
     position: absolute;
     left: 18.01%;
     
@@ -52,22 +55,22 @@ html{scroll-behavior: smooth;}
 #sec1 .sec1_2{
     position: absolute;
     width: 10vw;
-    height: 5vw;
+    
     left: 10%;
-    top: 6vw;
+    top: 8vw;
 
 }
 #sec1 .sec1_3{
     position: absolute;
-    width: 25vw;
-    left: 45%;
-    top: 23vw;
+    width: 20vw;
+    left: 55%;
+    top: 29vw;
    
 }
 #sec1 .sec1_4{
     position: absolute;
     width: 31vw;
-    height: 4vw;
+    
     left:18%;
     top: 35vw;
  
@@ -117,21 +120,21 @@ html{scroll-behavior: smooth;}
 #sec3 .sec3_img2{
     position: absolute;
     width:27vw;
-    height:;
+  
     left:48%;
     top:20%;
 }
 #sec3 .sec3_img3{
     position: absolute;
     width:25vw;
-    height:;
+    
     left:15%;
     top:5vw;
 }
 #sec3 .sec3_img4{
     position: absolute;
     width:18vw;
-    height:;
+    
     left:5%;
     top:10vw;
     z-index: 1;
@@ -159,7 +162,7 @@ html{scroll-behavior: smooth;}
 #sec4 .sec4_main1 .sec4_img1{
     position: absolute;
     width:38vw;
-    height:;
+   
     left:22%;
     top:5vw;
 }
@@ -192,7 +195,7 @@ html{scroll-behavior: smooth;}
 #sec4 .sec4_main1 .sec4_img6{
     position: absolute;
     width:35vw;
-    height:;
+  
     left:30%;
     top:42vw;
     z-index: 1;
@@ -216,7 +219,6 @@ html{scroll-behavior: smooth;}
     font-family: 'S-CoreDream-3Light';
     
 }
-
 
 
 
@@ -255,14 +257,14 @@ html{scroll-behavior: smooth;}
 #sec5 .sec5_img5{
     position: absolute;
     width:23vw;
-    height:;
+ 
     left:57%;
     top:46vw;
 }
 #sec5 .sec5_img6{
     position: absolute;
     width:30vw;
-    height:;
+    
     left:61%;
     top:21vw;
 }
@@ -276,7 +278,7 @@ html{scroll-behavior: smooth;}
 #sec5 .sec5_img8{
     position: absolute;
     width:28vw;
-    height:;
+  
     left:34%;
     top:58vw;
 }
@@ -290,7 +292,7 @@ html{scroll-behavior: smooth;}
 #sec5 .sec5_img10{
     position: absolute;
     width:30vw;
-    height:;
+ 
     left:10%;
     top:81vw;
     z-index: 2;
@@ -306,12 +308,12 @@ html{scroll-behavior: smooth;}
     position: absolute;
     width:4vw;
     left:73%;
-    top:38vw;
+    top:44vw;
 }
 #sec6 .sec6_img2{
     position: absolute;
     width:14vw;
-    left:23%;
+    left:12%;
     top:4vw;
     z-index: 555;
 }
@@ -319,34 +321,42 @@ html{scroll-behavior: smooth;}
     position: absolute;
     width:12vw;
     left:30%;
-    top:38vw;
+    top:44vw;
+    z-index: 9;
 }
 #sec6 .sec6_img4{
     position: absolute;
     width:20vw;
-    height:;
+ 
     left:50%;
-    top:38vw;
+    top:44vw;
 }
 #sec6 .sec6_img5{
     position: absolute;
     width:20vw;
     left:50%;
-    top:47vw;
+    top:53vw;
+}
+#sec6 .sec6_img6{
+    position: absolute;
+    width:20vw;
+    left:38%;
+    top:63vw;
 }
 
 .swiper-container {
-    width: 56vw;
-    top: 12vw;
-    height: 23vw;
-  }
+    width: 66vw;
+    top: 2vw;
+   
+}
 
-  .swiper-slide {
-      width:50vw;
-      
-  
-    background: #fff;
-      
+.swiper-slide {
+    width:80vw;
+    padding: 3vw;
+    
+
+   
+
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -644,6 +654,9 @@ html{scroll-behavior: smooth;}
 #sec11 .sec11_img3:hover{
     transform: scale(1.2);
 }
+#sec6 .sec6_img6:hover{
+    transform: scale(1.2);
+}
 
 #sec9 .sec9_img4_1{
     position: absolute;
@@ -713,45 +726,33 @@ html{scroll-behavior: smooth;}
 }
 #sec10 .sec10_img1{
     position: absolute;
-    width: 27vw;
-    left: 20%;
-    top: 10vw;
+    width: 50vw;
+    left: 26%;
+    top: 2vw;
 }
 #sec10 .sec10_img2{
     position: absolute;
     width: 40vw;
-    left: 20%;
-    top: 15vw;
-    z-index: 1;
+    left: 30%;
+    top: 49vw;
+    z-index: 2;
+  
+
+
+
 }
 #sec10 .sec10_img3{
     position: absolute;
-    width: 63vw;
-    height: 30vw;
-    left: 17%;
-    top: 16.5vw;
-}
-#sec10 .sec10_img4{
-    position: absolute;
-    width: 25vw;
-    height: 6vw;
-    left: 50%;
-    top: 18vw;
-}
-#sec10 .sec10_img5{
-    position: absolute;
-    width: 35vw;
-    height: 4vw;
-    left: 33%;
-    top: 42vw;
-}
-#sec10 .sec10_img6{
-    position: absolute;
-    width: 30vw;
+    width: 1vw;
     
-    left: 50%;
-    top: 48vw;
+    left: 29%;
+    top: 48.5vw;
+    z-index: 1;
+    background-color: yellow;
 }
+
+
+
 #sec11{
     position: relative;
     background: url(../img/img2/bg/B011.png) center / 100%100%;
@@ -774,60 +775,127 @@ html{scroll-behavior: smooth;}
 #sec11 .sec11_img3{
     position: absolute;
     width: 26vw;
-    height: 4vw;
+    
     left: 35%;
     top: 15vw;
 }
 #sec12{
-    background: url(../img/img2/moon.png) center / 100%100%;
-    height: 60vw;
+    position: relative;
+    background: url(../img/img2/moom1/moomall.png) center / 100%100%;
+    height: 80vw;
 }
 #sec12 #name{
     position: absolute;
-    width: 22.6vw;
-    height: 3.88vw;
-    left: 12.9%;
-    bottom: 37.2vw;
-    font-size: 2vw;
+    width: 16.9vw;
+    height: 3.5vw;
+    left: 21.6%;
+    bottom: 53vw;
+    font-size: 1vw;
+    border: white;
+    background-color: white;
+    padding-left: 1vw;
+    font-family: 'S-CoreDream-3Light';
+    
     
 }
 #sec12 #num{
     position: absolute;
-    width: 22.6vw;
-    height: 3.88vw;
-    left: 38.4%;
-    bottom: 37.2vw;
-    font-size: 2vw;
+    width: 16.9vw;
+    height: 3.5vw;
+    left: 40.9%;
+    bottom: 53vw;
+    font-size: 1vw;
+    border: white;
+    background-color: white;
+    padding-left: 1vw;
+    font-family: 'S-CoreDream-3Light';
 }
 #sec12 #email{
     position: absolute;
-    width: 22.6vw;
-    height: 3.88vw;
-    left: 64.15%;
-    bottom: 37.2vw;
-    font-size: 1.8vw;
+    width: 16.9vw;
+    height: 3.5vw;
+    left: 60.4%;
+    bottom: 53vw;
+    font-size: 1vw;
+    border: white;
+    background-color: white;
+    padding-left: 1vw;
+    font-family: 'S-CoreDream-3Light';
 }
 #sec12 #main{
     position: absolute;
-    width: 73.3vw;
-    height: 21.5vw;
-    left: 13%;
-    bottom: 10.2vw;
-    font-size: 1.5vw;
+    width: 55.5vw;
+    height: 19.1vw;
+    left: 21.5%;
+    bottom: 29vw;
+    font-size: 1vw;
+    padding: 1vw;
+    font-family: 'S-CoreDream-3Light';
 }
 #sec12 #check{
     position: absolute;
-    width: 0.9vw;
-    height: 0.9vw;
-    left: 13.1%;
-    bottom: 7.21vw;
+    width: 1vw;
+    height: 1vw;
+    left: 21.6%;
+    bottom: 13.9vw;
     font-size: 1.5vw;
+    border: black;
 }
+#sec12 #checkmain{
+    position: absolute;
+    width: 55.5vw;
+    height: 10.4vw;
+    left: 21.5%;
+    bottom: 16.6vw;
+    font-size: 1vw;
+    padding: 0.5vw;
+    font-family: 'S-CoreDream-3Light';
+}
+
 #sec12 .gogo{
     position: absolute;
-    width: 14vw;
+    width: 12.7vw;
+    height: 3.4vw;
+    left: 21%;
+    bottom:9vw;
+}
+
+#sec13{
+    position: relative;
+    background-color: #1c1c1c;
+    height: 15vw;
+    font-family: 'S-CoreDream-3Light';
+}
+#sec13 img{
+    position: absolute;
+    text-align: center;
+    width: 13vw;
+    left: 43%;
+    top: 1vw;
+
+
+}
+
+#sec13 footer{
+
+    text-align: center;
+    color: #fff;
+    font-size: 1vw;
+    padding: 7vw;
     
-    left: 73%;
-    bottom: 6vw;
     
+}
+h2{
+    font-size: 2vw;
+    
+    
+}
+#sec13 footer p{
+    
+    padding: 2vw;
+    color:gray;
+    font-size: 1vw;
+    letter-spacing: 1px;
+
+
 }

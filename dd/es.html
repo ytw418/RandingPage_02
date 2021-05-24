@@ -1,26 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <button class="btn hover1"> BUTTON 1 </button> <button class="btn hover2"> BUTTON 2 </button> <button class="btn hover3"> BUTTON 3 </button> <button class="btn hover4"> BUTTON 4 </button>
+<!-- 폼메일 시작 --------------------------------------------------------->
+<link rel="StyleSheet" href="/{{$template}}/inc/formmail/formmail_{{$com_formmail.code}}.css" type="text/css">
+<script language="javascript" src="/cjs/formmail.js?com_formmail_id={{$com_formmail.code}}&template={{$template}}">
+</script>
 
-
-    <style>
-        .btn { display:block; width:200px; height:40px; line-height:40px; border:1px #3399dd solid;; margin:15px auto; background-color:#66aaff; text-align:center; cursor: pointer; color:rgb(172, 52, 52);
-            transition:all 4s,}
-        .btn:hover{color:#fff;}
-
-        .hover1:hover{ box-shadow:200px 0 0 0 rgba(0,0,0,0.3) inset ;	transition-duration: 5s;  } 
-        .hover2:hover{ box-shadow:-200px 0 0 0 rgba(0,0,0,0.5) inset; } 
-        .hover3:hover{ box-shadow: 0 80px 0 0 rgba(0,0,0,0.25) inset, 0 -80px 0 0 rgba(0,0,0,0.25) inset; } 
-        .hover4:hover{ box-shadow: 200px 0 0 0 rgba(0,0,0,0.25) inset, -200px 0 0 0 rgba(0,0,0,0.25) inset; }
-
-
-    </style>
-</body>
-</html>
+<table border='0' cellspacing='0' cellpadding='0' width='{{$com_formmail.table_size}}'
+    bgcolor='{{$com_formmail.table_bgcolor}}'>
+    <form name='com_formmail' method='post' action='{{$com_formmail.path}}?{{$com_formmail.query}}'
+        enctype='multipart/form-data'>
+        <input title='input' type='hidden' name='com_formmail{{$com_formmail.code}}_basic' value='send'>
+        <input title='input' type='hidden' name='template' value='{{$template}}'>
+        <tr>
+            <td>
+                <input type="text" class="formmail_border" id="name" name="name" maxlength="100" size="50" value="">
+                <input type="text" class="formmail_border" id="num" name="mobile_no1" size="11" maxlength="11" value="">
+                <input type="text" class="formmail_border" id="email" name="receiver_email" size="67" value="">
+                <textarea class="formmail_textarea_style" id="main" cols="66" name="description"></textarea>
+                <input type="checkbox" value="on" name="com_formmail_check_safe" id="check">
+                <textarea type="text" class="formmail_border" id="checkmain" value=""></textarea>
+                <div id="go" align='center' style='margin-top:10px; *margin-top:0;'>
+                    <a href="#" onclick="com_formmail_formCheck(); return false;"><img class="gogo"
+                            src='./img/img2/moom1/07.png' alt=""></a>
+                </div>
+            </td>
+        </tr>
+    </form>
+</table>
+<!-- //폼메일 끝---------------------------------------------------------------------------------------->

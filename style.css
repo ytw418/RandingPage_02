@@ -1259,24 +1259,20 @@ h2{
 }
 #msec12{
     position: relative;
-    background: url(./img2m/mo/000.png) center / 100%100%;
+    background: url(./img2m/m/00.png) center / 100%100%;
     height: 177.778vw;
+    
 }
 
-#msec12 .sec12_main{
-    position: absolute;
-    width: 90vw;
-    left: 5%;
-    top: 10vw;
-}
+
 #msec12 #name{
     position: absolute;
-    width: 60.3vw;
-    height: 5vw;
-    left: 19.1%;
-    top: 35vw;
-    font-size: 1vw;
- border: white;
+    width: 88vw;
+    height: 9.5vw;
+    left: 6.2%;
+    top: 43.2vw;
+    font-size: 13px;
+
     background-color: white;
     padding-left: 2vw;
     font-family: 'S-CoreDream-3Light';
@@ -1286,25 +1282,27 @@ h2{
 }
 #msec12 #num{
     position: absolute;
-    width: 60.3vw;
-    height: 5vw;
-    left: 19.1%;
-    top: 48vw;
-    font-size: 1vw;
-    border: white;
+    width: 88vw;
+    height: 9.5vw;
+    left: 6.2%;
+    top: 61.8vw;
+    font-size: 13px;
+
     background-color: white;
     padding-left: 2vw;
     font-family: 'S-CoreDream-3Light';
     z-index: 2;
+    
+    
 }
 #msec12 #email{
     position: absolute;
-    width: 60.3vw;
-    height: 5vw;
-    left: 19.1%;
-    top: 60.9vw;
-    font-size: 1vw;
- border: white;
+    width: 88vw;
+    height: 9.5vw;
+    left: 6.2%;
+    top: 80.5vw;
+    font-size: 13px;
+
     background-color: white;
     padding-left: 2vw;
     font-family: 'S-CoreDream-3Light';
@@ -1312,35 +1310,35 @@ h2{
 }
 #msec12 #main{
     position: absolute;
-    width: 60.3vw;
-    height: 37vw;
-    left: 19.1%;
-    top: 73vw;
-    font-size: 1vw;
-    border: white;
+    width: 88vw;
+    height: 25.5vw;
+    left: 6.3%;
+    top: 100vw;
+    font-size: 13px;
+
     background-color: white;
-    padding-left: 2vw;
+    padding: 10px;
     font-family: 'S-CoreDream-3Light';
     z-index: 2;
 }
 #msec12 #check{
     position: absolute;
-    width: 3vw;
-    height: 3vw;
-    left: 52.8%;
+    width: 2.2vw;
+    height: 2.2vw;
+    left: 32%;
     z-index: 2;
-    top: 113.8vw;
+    top: 157.5vw;
     font-size: 1.5vw;
     border: black;
 }
 #msec12 #checkmain{
     position: absolute;
-    width: 60.3vw;
-    height: 17vw;
-    left: 19.1%;
-    top: 118vw;
+    width: 81vw;
+    height: 22vw;
+    left: 9.5%;
+    top: 134.1vw;
     font-size: 10px;
-    border: white;
+
     background-color: white;
     padding-left: 2vw;
     font-family: 'S-CoreDream-3Light';
@@ -1350,11 +1348,11 @@ h2{
 
 #msec12 .gogo{
     position: absolute;
-    width: 50vw;
+    width: 25vw;
     
-    left: 25%;
+    left: 38%;
     z-index: 2;
-    top: 142vw;
+    top: 166.5vw;
 }
 #msec12 .gogo:hover {
     transform:scale(1.1);

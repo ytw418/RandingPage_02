@@ -1323,8 +1323,8 @@ h2{
 }
 #msec12 #check{
     position: absolute;
-    width: 10px;
-    height: 10px;
+    width: 13px;
+    height: 13px;
     left: 32%;
     z-index: 2;
     top: 157.5vw;

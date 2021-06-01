@@ -24,12 +24,13 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 a{text-decoration: none;}
 html{scroll-behavior: smooth;}
+body{background-color: #1c1c1c;font-family: 'S-CoreDream-3Light';}
 
 /* PC Style  */
-#container{position: relative; width: 100%;overflow: hidden;}
-body{
-    font-family: 'S-CoreDream-3Light';
-}
+#container{position: relative; width: 100%;overflow:hidden;background-color: #fff;}
+#mcontainer{background-color: #fff;}
+
+
 
 /* 섹션별 백그라운드 */
 
@@ -1338,9 +1339,9 @@ h2{
 }
 #sec12 #checkmain{
     position: absolute;
-    width: 81vw;
+    width: 79vw;
     height: 22vw;
-    left: 9.5%;
+    left: 9.9%;
     top: 134.1vw;
     font-size: 10px;
 

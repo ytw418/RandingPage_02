@@ -16,13 +16,50 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev"
     }
   });
+
+
+
+  // 인증서 스와퍼 슬라이드
+var swiper = new Swiper(".inmySwiper", {
+  slidesPerView: 1.5,
+  spaceBetween: 0,
+  loop: true,
+  autoplay: {
+    delay: 3500,
+    disableOnInteraction: false,
+},
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  coverflowEffect: {
+      rotate: 0, /*각도*/
+      stretch: 40, /*간격*/ 
+      depth: 10, /* 보이는 거리*/
+      modifier: 0.6,
+      slideShadows: true,
+      slidesPerView: 3,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
+  }
+  
+});
+
+  
+  var downvw = parseInt($(window).width() * 0.45) + 'px';
+  var upvw = parseInt($(window).width() * 0.41) + 'px';
   $(function ccc(){
     $('.sec6_img3').animate({
-    top:830,
+    top:downvw,
     // 내려갈떄
     },600,function(){
     $('.sec6_img3').animate({
-    top:780,
+    top:upvw,
     // 올라갈떄
     },400,ccc);
     });

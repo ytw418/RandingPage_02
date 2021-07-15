@@ -270,7 +270,7 @@ body{background-color: #1c1c1c; font-family: 'S-CoreDream-3Light';}
 #sec5 .sec5_img7{
     position: absolute;
     width:50vw;
-    height:25vw;
+    
     left:10%;
     top:55vw;
 }
@@ -279,11 +279,11 @@ body{background-color: #1c1c1c; font-family: 'S-CoreDream-3Light';}
     width:28vw;
   
     left:34%;
-    top:58vw;
+    top:60vw;
 }
 #sec5 .sec5_img9{
     position: absolute;
-    width:25vw;
+    width:28vw;
     
     left:63%;
     top:55vw;
@@ -293,10 +293,9 @@ body{background-color: #1c1c1c; font-family: 'S-CoreDream-3Light';}
     width:30vw;
  
     left:10%;
-    top:81vw;
+    top:88vw;
     z-index: 2;
 }
-
 
 #sec6{
     position: relative;
@@ -428,7 +427,7 @@ body{background-color: #1c1c1c; font-family: 'S-CoreDream-3Light';}
     width: 44vw;
     height: 5vw;
     left: 30%;
-    top: 45vw;
+    top: 49vw;
 
 }
 #sec7 .sec7_title .sec7_img5{
@@ -442,8 +441,8 @@ body{background-color: #1c1c1c; font-family: 'S-CoreDream-3Light';}
 #sec7 .sec7_title .sec7_img6{
     position: absolute;
     width: 3vw;
-    left: 72%;
-    top: 44vw;
+    left: 75%;
+    top: 49vw;
 
 }
 #sec7 .sec7_webtoon{
@@ -573,6 +572,69 @@ body{background-color: #1c1c1c; font-family: 'S-CoreDream-3Light';}
     left: 73%;
     top: 28vw;
 }
+/*======================= 인증서 섹션 =========================*/
+#new_insec{position: relative;}
+.insec_img0{position: relative;
+width: 100%;
+}
+.insec_img1{
+    position: absolute;
+    width: 26vw;
+    top: 43vw;
+    left: 8%;
+    }
+.insec_img2{
+    position: absolute;
+    width: 26vw;
+    top: 43vw;
+    left: 37%;
+    }
+.insec_img3{
+    position: absolute;
+    width: 26vw;
+    top: 43vw;
+    left: 66%;
+    }
+.insec_img4{
+    position: absolute;
+    width: 26vw;
+    top: 83vw;
+    left: 8%;
+    }
+.insec_img5{
+    position: absolute;
+    width: 26vw;
+    top: 83vw;
+    left: 37%;
+    }
+.insec_img6{
+    position: absolute;
+    width: 26vw;
+    top: 83vw;
+    left: 66%;
+    }
+.insec_img7{
+    position: absolute;
+    width: 26vw;
+    top: 123vw;
+    left: 8%;
+    }
+.insec_img8{
+    position: absolute;
+    width: 26vw;
+    top: 123vw;
+    left: 37%;
+    }
+.insec_img9{
+    position: absolute;
+    width: 26vw;
+    top: 123vw;
+    left: 66%;
+    }
+
+
+/*======================= 피시 인증서 섹션 끝=========================*/
+
 
 #sec9{
     position: relative;
@@ -1182,6 +1244,62 @@ h2{
     
     
 }
+/*=======================모바일 인증서 섹션 =========================*/
+#mnew_insec{
+    position: relative;
+}
+.minsec_img1{width: 100%;}
+
+.mo #mnew_insec .swiper-container {
+    position: absolute;
+    width: 100%;
+    top: 45vw;
+    padding: 30px;
+
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: white !important;}
+.mo #mnew_insec .swiper-slide {
+    
+
+
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-container-3d .swiper-slide-shadow-left {
+    display: none;
+
+}
+.swiper-container-3d .swiper-slide-shadow-right {
+    display: none;
+
+}
+.mo #mnew_insec .swiper-slide img {
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+
+
+
+
+/*=======================모바일 인증서 섹션 끝 =========================*/
 
 #msec9{
 
@@ -1397,6 +1515,5 @@ h2{
     color:gray;
     font-size: 10px;
     letter-spacing: 1px;
-
-
+}
 }

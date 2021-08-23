@@ -726,16 +726,15 @@ width: 100%;
 
 #sec9 .sec9_img4_1{
     position: absolute;
-    width: 10vw;
-    left: 20%;
-    top: 50vw;
-    
+    width: 12vw;
+    left: 71%;
+    top: 39vw;
     
 }
 #sec9 .sec9_img4_2{
     position: absolute;
     width: 25vw;
-    height: 6vw;
+    height: 7vw;
     left: 23%;
     top: 58vw;
     
@@ -749,17 +748,17 @@ width: 100%;
     
 }
 #sec9 .sec9_img5_1{
+
     position: absolute;
-    width: 10vw;
-    left: 69%;
-    top: 40vw;
-    
+    width: 11vw;
+    left: 18%;
+    top: 50vw;
     
 }
 #sec9 .sec9_img5_2{
     position: absolute;
     width: 25vw;
-    height: 6vw;
+    height: 7vw;
     left: 50%;
     top: 58vw;
     
@@ -770,7 +769,7 @@ width: 100%;
     width: 15vw;
    
     left: 55%;
-    top: 65vw;
+    top: 67vw;
     
     
 }
@@ -779,7 +778,7 @@ width: 100%;
     width: 15vw;
     
     left: 28%;
-    top: 65vw;
+    top: 67vw;
     
     
 }
@@ -1488,43 +1487,35 @@ h2{
 #sec12 .gogo:hover {
     transform:scale(1.1);
 }
+}
+/* ============================================푸터====================================== */
 
-#sec13{
+
+
+footer ul{position: absolute;top: 12vw;left: 39.5%;}
+footer ul img{margin: 0.8vw;width: 2vw;}
+.pooter_icons{border-radius: 25px;}
+
+footer {
     position: relative;
-    background-color: #1c1c1c;
-    height: 38vw;
-    font-family: 'S-CoreDream-3Light';
-}
-#sec13 img{
-    position: absolute;
-    text-align: center;
-    width: 25vw;
-    height: 12vw;
-    left: 40%;
-    top: 4vw;
-
-
 }
 
-#sec13 footer{
-  
-    text-align: center;
-    color: #fff;
-    
-    padding: 2vw;
-    padding-top: 18vw;
-    
-    
+footer li{
+    display: inline-block;
 }
 
-#sec13 footer p{
-
-    padding-top: 4vw;
-    padding: 2vw;
-    color:gray;
-    font-size: 10px;
-    letter-spacing: 1px;
-
-
+footer li a img:hover{
+    opacity: 0.5;
+    transition:.5s;-webkit-transition: .5s;
 }
+
+@media all and (max-width:768px) {
+    footer ul{top: 98vw; left: 30%;}
+    footer ul img{margin: 5px;width: 25px;height: 25px;}
+    .pooter_icons{border-radius: 25px;}
 }
+
+
+
+
+

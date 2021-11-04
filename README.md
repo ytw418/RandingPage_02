@@ -3,7 +3,7 @@
 랜딩 페이지 제작스토리지 입니다.
 
 
-<<<<<<< HEAD
+
 사용한 라이브러리
 
 1. AOS-Animate On Scroll Library
